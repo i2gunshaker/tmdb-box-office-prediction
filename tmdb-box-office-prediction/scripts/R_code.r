@@ -987,7 +987,7 @@ p2 <- ggplot(df_plot, aes(x = yhat, y = resid)) +
   )
 ggsave(file.path(FIG_DIR, "final_residuals_vs_fitted.png"), p2, width = 9, height = 6, dpi = 200)
 
-# ---------- 12) Print paths (handy for LaTeX write-up) ----------
+# ---------- 12) Print paths 
 cat("\nSaved outputs to:\n")
 cat("Figures:", FIG_DIR, "\n")
 cat("Tables :", TAB_DIR, "\n")
